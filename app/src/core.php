@@ -45,11 +45,11 @@ class FruitCollector
     protected $appleTreesCount = 10;
     protected $pearTreesCount = 15;
 
-    // минимальный и максимальный вес ждя яблока
+    // минимальный и максимальный вес для яблока
     protected $minAppleWeight = 150;
     protected $maxAppleWeight = 180;
 
-    // минимальный и максимальный вес ждя груши
+    // минимальный и максимальный вес для груши
     protected $minPearWeight = 130;
     protected $maxPearWeight = 170;
 
