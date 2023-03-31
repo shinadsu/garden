@@ -144,7 +144,7 @@ for ($i = 0; $i < count($fruits->applecontainer); $i++)
         "тип урожая" => $fruits->applecontainer[$i]->type,
         "вес" => $fruits->applecontainer[$i]->weight
     ];
-   // раскоментируйте с 150-152 чтобы увидеть список груш
+   // раскоментируйте с 149-151 чтобы увидеть список груш
 
     // echo '<br>';
     // print_r($applearr); // 161-163 выводит масивы с id грушы, его тип и его вес
@@ -155,7 +155,7 @@ for ($i = 0; $i < count($fruits->applecontainer); $i++)
 for ($i = 0; $i < count($fruits->pearcontainer); $i++) 
 {
     $peararr = [
-        "всеобщее количество груш собрано с урожая" => $i,
+        "индетификационный номер груши" => $i,
         "тип урожая" => $fruits->pearcontainer[$i]->type,
         "вес" => $fruits->pearcontainer[$i]->weight
     ];
