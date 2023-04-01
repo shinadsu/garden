@@ -59,7 +59,7 @@ class FruitCollector
     protected $minfruitsforapples = 40;
     protected $maxfruitsforapples = 50;
 
-    // минимальный и максимальный сбор с одной яблни
+    // минимальный и максимальный сбор с одной груши
     protected $minfruitsforpears = 0;
     protected $maxfruitsforpears = 20;
 
