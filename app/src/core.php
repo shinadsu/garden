@@ -107,7 +107,7 @@ class FruitCollector
 
     public function getCountFruitsApple()
     {
-        // немного неправильно, что реализовал через echo
+       
         $fruits = new FruitCollector;
         $fruit = $fruits->collectFruits()->applecontainer;
         echo count($fruit);
@@ -115,7 +115,7 @@ class FruitCollector
 
     public function getCountFruitsPear()
     {
-        // немного неправильно, что реализовал через echo
+        
         $fruits = new FruitCollector;
         $fruit = $fruits->collectFruits()->pearcontainer;
         echo count($fruit);
