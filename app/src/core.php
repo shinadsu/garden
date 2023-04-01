@@ -133,9 +133,9 @@ class FruitCollector
 
 $fruit = new FruitCollector();
 $fruits = $fruit->collectFruits(); // переменная нужна для исползования ее ниже в циклах 
-// $fruit->getCountFruitsApple(); // выводит общее количесто собраных яблок с урожая, можно раскоментировать
-// $fruit->getCountFruitsPear(); // выводит общее количество груш с урожая, можно раскоментировать
-// $fruit->addtree(); // добавляет дерево, можно раскоментировать, в теле нужно написать число типа Integer
+// $fruit->getCountFruitsApple();  выводит общее количесто собраных яблок с урожая, можно раскоментировать
+// $fruit->getCountFruitsPear();  выводит общее количество груш с урожая, можно раскоментировать
+// $fruit->addtree();  добавляет дерево, можно раскоментировать, в теле нужно написать число типа Integer
 
 
 for ($i = 0; $i < count($fruits->applecontainer); $i++) 
