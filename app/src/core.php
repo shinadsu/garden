@@ -51,9 +51,8 @@ class FruitCollector
 
     // минимальный и максимальный вес для груши
     protected $minPearWeight = 130;
-    protected $maxPearWeight = 170;
+    protected $maxPearWeight = 170
 
-    protected $number;
 
     // минимальный и максимальный сбор с одной яблни
     protected $minfruitsforapples = 40;
