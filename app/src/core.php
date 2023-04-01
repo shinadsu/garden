@@ -6,6 +6,7 @@ class Apple
     public $type = 'apple'; // тип 
     public $weight = ''; //вес яблока
 
+    
     public function __construct($weight)
     {
         $this->weight = $weight;
@@ -18,8 +19,7 @@ class Pear
     public $type = 'pear'; // тип 
     public $weight = ''; // вес груши
 
-
-
+    
     public function __construct($weight)
     {
         $this->weight = $weight;
@@ -33,6 +33,7 @@ class FruitContainer
     public $applecontainer = [];
     public $pearcontainer = [];
 
+    
     public function __construct($applecontainer, $pearcontainer)
     {
         $this->applecontainer = $applecontainer;
@@ -89,7 +90,6 @@ class FruitCollector
     }
 
 
-
     // собираем урожай с груш
     public function collectPears()
     {
@@ -113,6 +113,7 @@ class FruitCollector
         echo count($fruit);
     }
 
+    
     public function getCountFruitsPear()
     {
         
@@ -121,6 +122,7 @@ class FruitCollector
         echo count($fruit);
     }
 
+    
     // метод добавления дерева
     public function addtree($number)
     {
