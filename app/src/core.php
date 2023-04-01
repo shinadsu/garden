@@ -1,6 +1,6 @@
 <?php
 
-
+// класс для яблок
 class Apple
 {
     public $type = 'apple'; // тип 
@@ -12,6 +12,7 @@ class Apple
     }
 }
 
+// класс для груш
 class Pear
 {
     public $type = 'pear'; // тип 
@@ -39,6 +40,7 @@ class FruitContainer
     }
 }
 
+// основной класс с методам 
 class FruitCollector
 {
     // количество деревьев в саду 
@@ -130,10 +132,10 @@ class FruitCollector
 
 
 $fruit = new FruitCollector();
-$fruits = $fruit->collectFruits(); // переменная нужна для исползования ее в цикле 
+$fruits = $fruit->collectFruits(); // переменная нужна для исползования ее ниже в циклах 
 // $fruit->getCountFruitsApple(); // выводит общее количесто собраных яблок с урожая, можно раскоментировать
 // $fruit->getCountFruitsPear(); // выводит общее количество груш с урожая, можно раскоментировать
-// $fruit->addtree(); // добавляет дерево, можно раскоментировать, в теле нужно написать число типа Int
+// $fruit->addtree(); // добавляет дерево, можно раскоментировать, в теле нужно написать число типа Integer
 
 
 for ($i = 0; $i < count($fruits->applecontainer); $i++) 
