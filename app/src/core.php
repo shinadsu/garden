@@ -147,7 +147,7 @@ for ($i = 0; $i < count($fruits->applecontainer); $i++)
     ];
 
     // echo '<br>';
-    // print_r($applearr); // 161-163 выводит масивы с id яблока, его тип и его вес
+    // print_r($applearr); 
     // echo '</br>';
 }
 
