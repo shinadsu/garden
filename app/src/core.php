@@ -143,10 +143,10 @@ for ($i = 0; $i < count($fruits->applecontainer); $i++)
         "тип урожая" => $fruits->applecontainer[$i]->type,
         "вес" => $fruits->applecontainer[$i]->weight
     ];
-   // раскоментируйте с 149-151 чтобы увидеть список груш
+   // раскоментируйте с 149-151 чтобы увидеть список яблок
 
     // echo '<br>';
-    // print_r($applearr); // 161-163 выводит масивы с id грушы, его тип и его вес
+    // print_r($applearr); // 161-163 выводит масивы с id яблока, его тип и его вес
     // echo '</br>';
 }
 
